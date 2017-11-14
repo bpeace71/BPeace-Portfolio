@@ -33,10 +33,12 @@ h2 {
  	  color: grey;
     float: right;
     padding: 20px 0;
+    font-size: 20px;
 }
 
 .footer {
 	text-align: center;
+  background-color: #fff;
 }
 
 #me {
