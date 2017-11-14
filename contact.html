@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me</title>
+	<title>Contact Me</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
 	<div class="container">
-		<div class="row">
 
+		<div class="row box-header">
+			<div class="col-md-8">
+				<img src="assets/images/peace.png" style="width:50%;height:50%;">
+			</div>
+			<div class="col-md-4 linkage">
+				<a href="index.html">About | </a> 
+				<a href="contact.html">Contact | </a>			
+				<a href="portfolio.html">Portfolio</a> 			
+			</div>
+
+		<br />
+
+		<div class="row">
 			<div class="col-md-8">
 				<div class="box">
 					<div class="row">
 						<div class="col-md-12">
-							<h1>Portfolio</h1>
+							<h1>Contact Me</h1>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6">
-							<img src="assets/images/hangman.jpg" style="width:150px;height:150;">
-						</div>
-						<div class="col-md-6">
-							<img src="assets/images/rpg.jpg" style="width:150px;height:150;">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<img src="assets/images/trivia.jpg" style="width:150px;height:150;">
-						</div>
-						<div class="col-md-6">
-							<img src="assets/images/rutgers.png" style="width:150px;height:150;">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<img src="assets/images/rps.png" style="width:150px;height:150;">
+						<div class="col-md-12">
+							<div class="box">
+								<form action="/my-handling-form-page" method="post">
+    								<div>
+        								<label for="name">Name:</label>
+        								<input type="text" id="name" name="user_name">
+    								</div>
+    								<div>
+        								<label for="mail">E-mail:</label>
+        								<input type="email" id="mail" name="user_mail">
+   		 							</div>
+    								<div>
+        								<label for="msg">Message:</label>
+        								<textarea id="msg" name="user_message"></textarea>
+    								</div>
+								</form>
+
+								<div class="button">
+  									<button type="submit">Send your message</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>	
-
-			<div class="col-sm-4" box>
-				<div class="box">
-					<div class="row">
-						<div class="col-md-12">
-							<h2>Connect With Me</h2>
-						</div>
-					</div>
-					<div class="row">
+			</div>
+						<div class="col-sm-4" box>
+							<div class="box">
+								<div class="row">
+									<div class="col-md-12">
+										<h2>Connect With Me</h2>
+									</div>
+								</div>
+						<div class="row">
 						<div class="col-sm-4">
 							<img src="assets/images/github.png" style="width:75px;height:75;">
 						</div>
@@ -60,6 +74,11 @@
 						</div>
 					</div>
 				</div>
+			</div>
+
+			<div class="row">
+			<div class="col-md-12 footer">
+				© Copyright 2017 Brian Peace
 			</div>
 
 		</div>
